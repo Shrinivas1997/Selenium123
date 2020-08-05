@@ -1,47 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="50724" started-at="2020-08-03T05:24:01Z" finished-at="2020-08-03T05:24:52Z">
+  <suite name="Default suite" duration-ms="61" started-at="2020-08-05T03:37:40Z" finished-at="2020-08-05T03:37:40Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="39700" started-at="2020-08-03T05:24:01Z" finished-at="2020-08-03T05:24:41Z">
-      <class name="org.qsptestngdemo.org.ParallelBrowser">
-        <test-method status="PASS" signature="bm(java.lang.String)[pri:0, instance:org.qsptestngdemo.org.ParallelBrowser@28d25987]" name="bm" is-config="true" duration-ms="26066" started-at="2020-08-03T10:54:01Z" finished-at="2020-08-03T10:54:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="61" started-at="2020-08-05T03:37:40Z" finished-at="2020-08-05T03:37:40Z">
+      <class name="selinium.Demo89">
+        <test-method status="PASS" signature="m1()[pri:0, instance:selinium.Demo89@4520ebad]" name="m1" duration-ms="16" started-at="2020-08-05T09:07:40Z" finished-at="2020-08-05T09:07:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="m()[pri:0, instance:org.qsptestngdemo.org.ParallelBrowser@28d25987]" name="m" duration-ms="13600" started-at="2020-08-03T10:54:28Z" finished-at="2020-08-03T10:54:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m -->
-      </class> <!-- org.qsptestngdemo.org.ParallelBrowser -->
-    </test> <!-- ChromeTest -->
-    <test name="FirefoxTest" duration-ms="50724" started-at="2020-08-03T05:24:01Z" finished-at="2020-08-03T05:24:52Z">
-      <class name="org.qsptestngdemo.org.ParallelBrowser">
-        <test-method status="PASS" signature="bm(java.lang.String)[pri:0, instance:org.qsptestngdemo.org.ParallelBrowser@1b604f19]" name="bm" is-config="true" duration-ms="40828" started-at="2020-08-03T10:54:01Z" finished-at="2020-08-03T10:54:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="m()[pri:0, instance:org.qsptestngdemo.org.ParallelBrowser@1b604f19]" name="m" duration-ms="9864" started-at="2020-08-03T10:54:42Z" finished-at="2020-08-03T10:54:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m -->
-      </class> <!-- org.qsptestngdemo.org.ParallelBrowser -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- m1 -->
+      </class> <!-- selinium.Demo89 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
